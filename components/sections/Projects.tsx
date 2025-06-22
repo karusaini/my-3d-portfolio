@@ -38,6 +38,31 @@ const projects: Project[] = [
     codeUrl: "https://github.com/karusaini/skincare-landing-website",
     image: "/projects/skincare.png",
   },
+  {
+    title: "Car Finder Website",
+    description:
+      "Car Finder is a modern, responsive car browsing web app built using Next.js, TypeScript, TailwindCSS, and ShadCN UI. It allows users to explore and filter cars based on various parameters like brand, year, fuel type, and more, with a beautiful and functional interface.",
+
+    liveUrl: "https://car-finder-ten.vercel.app/",
+    codeUrl: "https://github.com/karusaini/car-finder",
+    image: "/projects/car.webp",
+  },
+  {
+    title: "Github Analyzer",
+    description:
+      "GitHub Analyzer is a tool that shows GitHub user stats, top repositories, and language usage with a clean UI using Next.js, TailwindCSS, and ShadCN UI.",
+    liveUrl: "https://github-analyzer-woad.vercel.app/",
+    codeUrl: "https://github.com/karusaini/github-analyzer",
+    image: "/projects/github.jpg",
+  },
+  {
+    title: "Pollarbear App",
+    description:
+      "PollarBear lets you easily create and share polls to get real-time feedback—simple, fast, and effective for surveys, opinions, or team decisions.",
+    liveUrl: "https://pollarbear-main.vercel.app/",
+    codeUrl: "https://github.com/karusaini/pollarbear",
+    image: "/projects/pollarbear.png",
+  },
 ];
 
 export default function Projects() {
